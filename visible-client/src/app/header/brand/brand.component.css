@@ -1,0 +1,41 @@
+:host .card {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  border-radius: 2.5px;
+  display: flex;
+}
+
+:host .graphic-container {
+  border-bottom-left-radius: 2.5px;
+  border-top-left-radius: 2.5px;
+  background: #fff;
+  padding: 6.55px;
+}
+
+:host .graphic {
+  border-radius: 50px;
+  overflow: hidden;
+  height: 30px;
+  width: 30px;
+}
+
+:host .graphic img {
+  width: 100%;
+}
+
+:host .actions a {
+  color: #4c4c4c;
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  padding: 6px;
+  width: 50px;
+}
+:host .actions a:first-child {
+  background: #ccc;
+  border-top-right-radius: 2.5px;
+}
+:host .actions a:nth-last-child(1) {
+  background: #eee;
+  border-bottom-right-radius: 2.5px;
+}

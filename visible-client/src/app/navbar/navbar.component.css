@@ -1,0 +1,24 @@
+:host nav {
+  background: #fff;
+  padding: 15px 150px;
+  color: #4c4c4c;
+}
+
+:host .brand,
+button {
+  letter-spacing: 1px;
+  font-family: Quicksand, sans-serif;
+  font-weight: 700;
+}
+
+:host button {
+  padding: 5px;
+  font-size: 12px;
+  margin-right: 25px;
+  background: none;
+  border: none;
+}
+
+:host *:focus {
+  outline: none;
+}

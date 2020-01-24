@@ -1,0 +1,11 @@
+app-footer .card {
+  max-width: 350px;
+  outline: solid #444 1px;
+}
+app-footer .graphic {
+  width: 20px;
+  height: 20px;
+}
+app-footer .graphic img {
+  width: 100%;
+}
