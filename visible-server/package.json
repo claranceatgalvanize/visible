@@ -9,6 +9,8 @@
   "author": "Clarance Farley",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
   }
 }
